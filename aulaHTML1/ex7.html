@@ -1,0 +1,24 @@
+<meta charset="UTF-8">
+<script>
+
+var nome, resultado, n1, n2, n3, media
+    nome=prompt ("Digite o seu nome: ");
+    n1=parseFloat(prompt("Digite a primeira nota: "));;
+    n2=parseFloat(prompt("Digite a segunda nota: "));
+    n3=parseFloat(prompt("Digite a terceira nota: "));
+
+    media=(n1+n2+n3)/3;
+    media.toFixed(1);
+    
+    if(media>=7)
+    {
+        resultado="Aprovado"
+    }
+    else
+    {
+        resultado="Reprovado"
+    }
+
+    console.log(nome+" A sua média é" +media+ " e você foi"+resultado);
+
+</script>

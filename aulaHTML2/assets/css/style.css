@@ -1,0 +1,39 @@
+/* comentário */
+
+/*
+sintaxe:
+elemento {propriedade:valor;
+    propriedade:valor}
+    */
+
+    /* seletor de elemento */
+h1 
+{
+    color: darkgreen;
+    text-align: center; 
+    font-size: 90px;
+    font-family: 'Righteous', cursive;
+}
+
+/* seletor de id */
+#paragrafo1 {
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#paragrafo2{
+    color: ;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: blue;
+}
+.conjunto1 {
+    font-size: 30px ;
+}
+.conjunto2{
+    color: chartreuse;
+}
+textarea {resize: none;}
+#caixa-formulario

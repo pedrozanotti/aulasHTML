@@ -1,0 +1,34 @@
+<meta charset="UTF-8">
+<script>
+   
+var nome, resultado, real, n1, n2, media
+
+    nome=prompt("Nome do aluno: ");
+    n1=parseFloat(prompt("Informe a primeira nota: "));
+    n2=parseFloat(prompt("Informe a segunda nota: "));
+
+    media=(n1+n2)/2
+    media=media.toFixed(1);
+
+    if(media>=7)
+    {
+        resultado="Você foi aprovado!"
+    }
+
+    else 
+    {
+    
+    if (media>5.0 && media<7)
+    {
+        resultado="Você está de recuparação!"
+    }
+
+    else
+    { 
+        resultado="Você foi reprovado!"
+    }
+
+    }
+
+       alert(nome+ " Sua média foi " +media+"\n"+resultado)
+</script>

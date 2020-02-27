@@ -1,0 +1,20 @@
+<meta charset="UTF-8">
+
+<script>
+var salario, totalSalario, contador, media
+
+contador=1         //inicialização
+totalSalario=0
+
+while (contador<=5)
+{
+    salario=parseFloat(prompt("Informe seu salário: "));
+    totalSalario+=salario;
+    contador++;
+}
+
+    media=totalSalario/(contador-1);
+    alert("A média é: "+media);
+
+
+</script>
